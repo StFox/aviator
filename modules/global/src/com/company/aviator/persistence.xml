@@ -2,5 +2,20 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="aviator" transaction-type="RESOURCE_LOCAL">
 
+        <class>com.company.aviator.entity.Workflow</class>
+        <class>com.company.aviator.entity.Account</class>
+        <class>com.company.aviator.entity.Organization</class>
+        <class>com.company.aviator.entity.Currency</class>
+        <class>com.company.aviator.entity.CurrencyRate</class>
+        <class>com.company.aviator.entity.Measure</class>
+        <class>com.company.aviator.entity.EventType</class>
+        <class>com.company.aviator.entity.Finsource</class>
+        <class>com.company.aviator.entity.FlyghtType</class>
+        <class>com.company.aviator.entity.Location</class>
+        <class>com.company.aviator.entity.Target</class>
+        <class>com.company.aviator.entity.Affilate</class>
+        <class>com.company.aviator.entity.PlanArticle</class>
+        <class>com.company.aviator.entity.Coefficient</class>
+        <class>com.company.aviator.entity.CoefficientValue</class>
     </persistence-unit>
 </persistence>
